@@ -1,0 +1,21 @@
+{
+  "name": "przeslijmi/silogger",
+  "description": "PHP library for log (meets PSR-3).",
+  "version": "v1.3.2",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Karol Nowakowski",
+      "email": "przeslijmi@gmail.com"
+    }
+  ],
+  "require": {
+    "php" : "^7|^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Przeslijmi\\Silogger\\": "src/"
+    }
+  }
+}
